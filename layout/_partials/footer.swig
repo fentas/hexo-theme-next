@@ -9,11 +9,11 @@
 </div>
 
 <div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link" href="http://hexo.io">Hexo</a>') }}
+  {{ __('footer.powered', '<a class="theme-link" href="https://github.com/fentas/hexo-theme-next">NexT</a> @ <a class="theme-link" href="http://hexo.io">Hexo</a>') }}
 </div>
 
 <div class="theme-info">
-  {{ __('footer.theme') }} - <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT</a>
+  <a class="theme-link" href="https://guth.so/impressum.php">Impressum/Datenschutz</a>
 </div>
 
 {% set cc = {'by': 1, 'by-nc': 1, 'by-nc-nd': 1, 'by-nc-sa': 1, 'by-nd': 1, 'by-sa': 1, 'zero': 1} %}

@@ -1,55 +1,53 @@
 title:
-  archive: 归档
-  category: 分类
-  tag: 标签
+  archive: Archive
+  category: Category
+  tag: Tag
 
 menu:
-  home: 首页
-  archives: 归档
-  tags: 标签
-  about: 关于
-
+  home: Home
+  archives: Archives
+  tags: Tags
+  about: About
 
 sidebar:
-  overview: 站点概览
-  toc: 文章目录
+  overview: Overview
+  toc: Table Of Contents
 
 post:
-  posted: 发表于
-  read_more: 阅读全文
-  untitled: 未命名
+  posted: Posted on
+  read_more: Read more
+  untitled: Untitled
 
 page:
-  totally: 共有
-  tags: 标签
+  totally: Totally
+  tags: tags
 
 footer:
-  powered: "由 %s 强力驱动"
-  theme: 主题
-
+  powered: "Powered by %s"
+  theme: Theme
 
 counter:
   tag_cloud:
-    zero: 暂无标签
-    one: 目前共计 1 个标签
-    other: "目前共计 %d 个标签"
+    zero: No tags
+    one: 1 tag in total
+    other: "%d tags in total"
 
   archive_posts:
-    zero: 暂无日志。
-    one: 目前共计 1 篇日志。
-    other: "目前共计 %d 篇日志。"
+    zero: No posts.
+    one: 1 post.
+    other: "%d posts in total."
 
 state:
-  posts: 日志
-  pages: 页面
-  tags: 标签
+  posts: posts
+  pages: pages
+  tags: tags
 
 cheers:
-  um: 嗯..
+  um: Um..
   ok: OK
-  nice: 好
-  good: 很好
-  great: 非常好
-  excellent: 太棒了
+  nice: Nice
+  good: Good
+  great: Great
+  excellent: Excellent
 
-keep_on: 继续努力。
+keep_on: Keep on posting.

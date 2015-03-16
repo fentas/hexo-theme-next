@@ -9,18 +9,18 @@
 
 <div id="sidebar" class="sidebar">
   <div class="sidebar-inner">
-
+  
     {% if is_post() %}
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc">
           {{ __('sidebar.toc') }}
         </li>
-        <li class="sidebar-nav-overview" data-target="site-overview">
+        <!--<li class="sidebar-nav-overview" data-target="site-overview">
           {{ __('sidebar.overview') }}
-        </li>
+        </li>-->
       </ul>
     {% endif %}
-
+  
     <div class="site-overview">
       <div class="site-author motion-element">
         <img class="site-author-image" src="{{ theme.avatar || url_for(theme.images) + '/default_avatar.jpg' }}" alt="{{ theme.author }}" />

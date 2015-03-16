@@ -1,6 +1,6 @@
 {% macro post(post, post_extra_class) %}
 
-  <div class="post post-type-{{ post.type | default('normal') }} {{ post_extra_class | default('') }}">
+  <div class="post markdown-body post-type-{{ post.type | default('normal') }} {{ post_extra_class | default('') }}">
     <div class="post-header">
 
       {# Not to show title for quote posts that do not have a title #}
